@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 app=FastAPI()
 
-df=pd.read_csv("E:\\Anuya MSc\\Sem 2\\EL + ML Project\\EL Project\\Star_encode.csv",header=0) #Location of the encoded file
+df=pd.read_csv("E:\\Anuya\\Star_encode.csv",header=0) #Location of the encoded file
 print(df.shape)
 print(df.head())
 # Splitting the Data for Train test split
