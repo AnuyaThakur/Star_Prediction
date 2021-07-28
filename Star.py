@@ -1,10 +1,9 @@
-from fastapi import FastAPI
 import pickle
 import streamlit as st
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 import pandas as pd
-app=FastAPI()
+
 
 df=pd.read_csv("Star_encode.csv",header=0) #Location of the encoded file
 print(df.shape)
